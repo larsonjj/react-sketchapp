@@ -29,7 +29,7 @@
     "test:ci": "jest --config .jestrc --runInBand",
     "test:watch": "npm run test -- --watch",
     "watch": "npm run build:react -- --watch",
-    "postinstall": "npm run yogafix && npm run build",
+    "postinstall": "npm run yogafix",
     "yogafix": "node ./yogafix"
   },
   "dependencies": {
